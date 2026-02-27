@@ -44,11 +44,16 @@ ___________________________________
 
 Chiedere al passeggero:
 - (let) quanti chilometri dovrà percorrere
+<!-- let km_run = valore -->
 - (let) quanti anni ha
+<!-- let age = valore -->
 
-<!-- per conoscere il prezzo base (non scontanto), bisogna calcolarlo sapendo che il - costo per km = 0.21 - e moltiplicarlo per i chilometri da percorrere  -->
-- (cost) prezzo per km = 0.21
+- (const) prezzo per km = 0.21
+<!-- const km_price = 0.21 -->
 - (let) prezzo tot = prezzo per km * quanti chilometri dovrà percorrere
+<!-- let full_price = km_price * km_run 
+     console.log(full_price)
+-->
 
 SE il passeggero è di età inferiore ai 18 anni 
  - applichi uno sconto del 20%.
