@@ -65,11 +65,16 @@ ALTRIMENTI
  - non applichi nessuno sconto.
 
 <!-- 
-if 
+if (age < 18) {
+  console.log(full_price * (1 - 20 / km_run))
+}
 
 
-else if
+else if (age > 65) {
+  console.log(full_price * (1 - 40 / km_run))
+}
 
 
-else
+else (age > 18 && age < 65)
+  console.log(full_price)
  -->
