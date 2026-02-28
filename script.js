@@ -13,11 +13,15 @@ const km_price = 0.21
 
 // convertiamo i prompt in valori numerici per eseguire le operazioni
 console.log(Number(km_run))
+console.log(Number(age))
 
 // calcoliamo il prezzo base (senza sconti applicati)
 let full_price = km_price * km_run
 console.log(full_price)
 
+// 3. condizioni scontistiche
+
+if (age < 18)
 
 
 
