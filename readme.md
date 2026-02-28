@@ -78,3 +78,30 @@ else if (age > 65) {
 else (age > 18 && age < 65)
   console.log(full_price)
  -->
+
+
+_______________________________________________________________________
+
+**esercizi extra** (cartella extra -> extra.html / main.js)
+
+1.età: chiedere all'utente con due prompt gli anni di due persone e comunicare quale delle due è più grande
+
+chiedere ai due utenti il numero di anni 
+- (let) quanti anni hai Marco ?
+<!-- let age_marco  -->
+- (let) quanti anni hai Davide ?
+<!-- let age_Davide -->
+
+SE Marco è più grande
+ - lo comunichi 
+
+ALTRIMENTI Davide è più grande 
+ - lo comunichi 
+
+
+
+
+______________________________________________
+2.pari o dispari: chiedere all'utente se vuole pari o dispari e un numero intero compreso tra 1 e 9. Generare un numero casuale compreso tra 1 e 9, che sarà la giocata del computer. Stabilire e comunicare chi ha vinto secondo le regole di pari o dispari.
+
+3.quanto manca (OPZIONALE): utilizzando le funzioni dell'oggetto Date, stabilire l'ora attuale e attraverso una operazione matematica stabilire i minuti mancanti allo scoccare della prossima ora.
