@@ -88,15 +88,23 @@ _______________________________________________________________________
 
 chiedere ai due utenti il numero di anni 
 - (let) quanti anni hai Marco ?
-<!-- let age_marco  -->
+<!-- let age_marco = prompt(Marco type your age) -->
 - (let) quanti anni hai Davide ?
-<!-- let age_Davide -->
+<!-- let age_davide = prompt(Davide type your age)-->
 
 SE Marco è più grande
  - lo comunichi 
 
 ALTRIMENTI Davide è più grande 
  - lo comunichi 
+
+ <!-- 
+ if (age_marco > age_davide)
+ console.log(marco è più grande di davide)
+
+ else
+ console.log(davide è più grande di marco)
+  -->
 
 
 
