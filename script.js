@@ -21,7 +21,16 @@ console.log(full_price)
 
 // 3. condizioni scontistiche
 
-if (age < 18)
+if (age < 18) {
+    console.log(full_price * (1 - 20 / km_run))
+
+} else if (age > 65) {
+    console.log(full_price * (1 - 40 / km_run))
+
+} else {
+    console.log(full_price)
+
+}
 
 
 
