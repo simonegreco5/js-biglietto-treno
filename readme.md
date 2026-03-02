@@ -68,12 +68,12 @@ ALTRIMENTI
 if (age < 18) {
   console.log(full_price * (1 - 20 / km_run))
 }
-
+**se km_run = 100; altrimenti full_price * (1 - 20 / 100)
 
 else if (age > 65) {
   console.log(full_price * (1 - 40 / km_run))
 }
-
+**se km_run = 100; altrimenti full_price * (1 - 40 / 100)
 
 else (age > 18 && age < 65)
   console.log(full_price)
@@ -91,6 +91,8 @@ chiedere ai due utenti il numero di anni
 <!-- let age_marco = prompt(Marco type your age) -->
 - (let) quanti anni hai Davide ?
 <!-- let age_davide = prompt(Davide type your age)-->
+
+trasfortmare i prompt in valori con Number()
 
 SE Marco è più grande
  - lo comunichi 
