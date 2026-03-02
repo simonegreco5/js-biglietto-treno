@@ -86,6 +86,8 @@ _______________________________________________________________________
 
 1.età: chiedere all'utente con due prompt gli anni di due persone e comunicare quale delle due è più grande
 
+- **svolgimento esercizio 1** 
+
 chiedere ai due utenti il numero di anni 
 - (let) quanti anni hai Marco ?
 <!-- let age_marco = prompt(Marco type your age) -->
@@ -107,10 +109,6 @@ ALTRIMENTI Davide è più grande
  else
  console.log(davide è più grande di marco)
   -->
-
-
-
-
 ______________________________________________
 2.pari o dispari: chiedere all'utente se vuole pari o dispari e un numero intero compreso tra 1 e 9. Generare un numero casuale compreso tra 1 e 9, che sarà la giocata del computer. Stabilire e comunicare chi ha vinto secondo le regole di pari o dispari.
 
